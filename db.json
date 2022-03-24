@@ -1,0 +1,14 @@
+{
+  "feedback": [
+    {
+      "text": "salom dun !sa",
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "text": "Xayrli tong !",
+      "rating": 2,
+      "id": 2
+    }
+  ]
+}

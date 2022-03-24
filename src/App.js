@@ -13,7 +13,6 @@ function App() {
         <Header />
         <div className="container">
           <Routes>
-
             <Route path='/' element={
               <>
                 <FeedbackForm />
@@ -21,13 +20,8 @@ function App() {
                 <FeedbackList />
               </>
             } />
-
-
             <Route path={'/about'} element={<AboutPage />} />
           </Routes>
-
-
-
         </div>
         <AboutIconLink />
       </BrowserRouter>
