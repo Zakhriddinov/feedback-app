@@ -7,9 +7,7 @@ const RatingSelect = ({ select }) => {
     setSelected(+e.currentTarget.value);
     select(+e.currentTarget.value);
   };
-
   const { feedbackEdit } = useContext(FeedbackContext);
-  
   useEffect(()=>{
      setSelected(feedbackEdit.item.rating)
   },[feedbackEdit])
